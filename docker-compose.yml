@@ -41,6 +41,16 @@ services:
       timeout: 5s
       retries: 10
 
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflare_tunnel
+    restart: unless-stopped
+    command: tunnel --url http://n8n:5678
+    networks:
+      - trading_net
+    depends_on:
+      - n8n
+
 volumes:
   n8n_data:
   postgres_data:
