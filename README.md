@@ -1,7 +1,3 @@
-Here is a polished, professional rewrite designed exactly how a top-tier `README.md` should look for a DevOps or Systems Administration portfolio. I removed the conversational instruction bits and combined the overlapping sections into a single, cohesive project documentation file.
-
-***
-
 # Automated Trading Alert & Execution Pipeline
 
 A robust, event-driven trading pipeline built with n8n. This system is designed to ingest JSON webhook payloads from trading algorithms (such as TradingView), route signals dynamically based on conditional logic, and securely execute trades via exchange APIs (e.g., Bitunix) using cryptographic signatures. 
