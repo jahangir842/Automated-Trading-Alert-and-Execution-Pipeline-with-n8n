@@ -1,0 +1,1 @@
+# Automated-Trading-Alert-and-Execution-Pipeline-with-n8n
